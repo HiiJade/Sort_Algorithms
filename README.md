@@ -1,10 +1,10 @@
-**Sort Algorithms Performance Analysis**
+# Sort Algorithms Performance Analysis
 
-**Overview**
+# Overview
 
 This project compares the execution time of **Merge Sort** and **Insertion Sort** for different input sizes. The program measures the sorting time using std::chrono::high_resolution_clock in C++.
 
-**Algorithms Implemented**
+# Algorithms Implemented
 
 1. **Merge Sort**
 
@@ -18,14 +18,17 @@ This project compares the execution time of **Merge Sort** and **Insertion Sort*
 
     Efficient for small input sizes due to its low overhead and cache efficiency.
 
-**Features**
+# Features
 
 ✅ Implements Merge Sort and Insertion Sort in C++.
+
 ✅ Measures execution time for various input sizes.
+
 ✅ Uses std::vector<int> for handling dynamic arrays.
+
 ✅ Outputs sorting time for different values of n.
 
-**Code Structure**
+# Code Structure
 
     mergeSort(): Implements the Merge Sort algorithm.
 
@@ -35,7 +38,7 @@ This project compares the execution time of **Merge Sort** and **Insertion Sort*
 
     main(): Runs sorting algorithms on different input sizes and measures execution time.
 
-**How to Compile and Run**
+# How to Compile and Run
 
     Using g++ (GCC)
 
